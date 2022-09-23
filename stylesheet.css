@@ -1,0 +1,68 @@
+/*
+--make all font on your webpage Arial
+*/
+*{
+    font-family: Arial;
+}
+ /*
+ Centering Headers
+ */
+h1{
+    text-align: center;
+}
+h2{
+    text-align:left;
+}
+/*
+Table with blue header row
+*/
+#info tr th{
+    background-color: rgb(30, 143, 192);
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 100%;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  div.info.th{
+    text-align: left;
+  }
+.two-column{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.responsive {
+    width: 100%;
+    height: auto;
+}
+.figcaption {
+    justify-content: left;
+}
+.cir{
+    fill: rgb(40, 133, 203);
+}
+.cir:hover{
+    fill: blanchedalmond;
+    stroke: 5;
+    stroke-width: 5;
+}
+.rec{
+    fill: rgb(128, 55, 207);
+    stroke: black;
+    stroke-width: 5;
+}
+.rec:hover{
+    fill: brown;
+}
+#decoration{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

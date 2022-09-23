@@ -2,12 +2,135 @@
 <html> 
 
 <head>
-    <meta charset=utf-8/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" charset=utf-8/>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen"/>
+    <!-- add title to page -->
+    <title>hw-02</title>
 </head>
 
 
 <body>
+<div id="data-abstraction">
+    <div id="info">
+        <h1>Dataset Types</h1>
+        <table>
+            <tr>
+                <th>Data</th>
+                <th>Link</th>
+                <th>Dataset Type</th>
+            </tr>
+            <tr>
+               <td>UFO</td> 
+               <td> <a href="C:\Users\valer\DS4200\hw-02-vee-oum\data\UFO.csv" target="_blank">Link</a></td>
+               <td>Table</td>
+            </tr>
+            <tr>
+                <td>Airports</td> 
+                <td><a href="C:\Users\valer\DS4200\hw-02-vee-oum\data\Google-Web.txt" target="_blank">Link</a></td>
+                <td>Geometry</td>
+             </tr>
+             <tr>
+                <td>Google-Web</td> 
+                <td><a href="C:\Users\valer\DS4200\hw-02-vee-oum\data\Airports.csv" target="_blank">Link</a></td>
+                <td>Networks</td>
+             </tr>
+        </table>
+       
+    </div>
+    <div class="info">
+            <h1>Data Types</h1>
+            <header><h2>UFO</h2></header>
+            <ul>
+                <li>Row data type: Item (Information on UFO sighting) </li>
+                <li>Column data type: Attributes</li>
+                <ul>
+                    <li>City</li>
+                    <li>State</S></li>
+                    <li>Country</li>
+                    <li>country</li>
+                    <li>Shape</li>
+                    <li>Duration(Seconds)</li>
+                    <li>Datetime</li>
+                    </ul>
+                </ul>
+            <header><h2>Airports</h2></header>
+            <ul>
+                <li>Row data type: Items (Airport & location) </li>
+                <li>Column data type: Position </li>
+                <ul>
+                    <li>Longitude</li>
+                    <li>Latitude</li>
+                </ul>
+            </ul>
+            <header><h2>Google-Web</h2></header>
+            <ul>
+                <li>Row data type: Item (Google Web) </li>
+                <li>Column data type: Link </li>
+                <ul>
+                    <li>FromNode</li>
+                    <li>ToNode</li>
+                </ul>
+           </ul>
+    </div>
+</div>
+<div id="task-abstraction"> 
+    <header><h1>Task-Abstraction</h1></header> <!-- needs to be centered-->  
+    <div class="two-column"> <!--CHANGE IMAGE + STYLING-->
+        <div>
+            <figure>
+                <img src="C:\Users\valer\DS4200\hw-02-vee-oum\img\vis1.png" alt="Daily maximum temperatures in Vancouver, 1979-2021" width="500" height="500" class="responsive" />
+                <figcaption>
+                    <ul>
+                        <li>High Level Action: Consumer -> Discover the daily maxium temperatures in Vancouver between 1979 to 2021</li>
+                        <li>Medium Level Action: Lookup </li>
+                        <li>Low Level Action: Summarize </li>
+                    </ul>
+            </figcaption>
+            </figure>
+        </div>
+        <div>
+            <figure>
+                <img src="C:\Users\valer\DS4200\hw-02-vee-oum\img\vis2.png" alt="Number of times daily mean temperatures were 20 degree Fahrenheit above normal" width="500" height="500" class="responsive" />
+                <figcaption>
+                    <ul>
+                        <li>High Level Action: Derive -> Record, Recording the daily mean temperatures when it was 20 degrees Fahrenheit above normal</li>
+                        <li>Medium Level Action: Browse </li>
+                        <li>Low Level Action: Compare</li>
+                    </ul>
+                </figcaption>
+            </figure>
+        </div>
+    </div>
+</div>
+<div id="decoration">
+        <svg>
+            <circle class="cir" cx="55" cy="60" r="50" stroke="gray" 
+            stroke-width="2"/>
+        </svg>
+        <svg>
+            <rect class="rec" width="100" height="50"/>
+        </svg>
+        <svg>
+            <circle  class="cir" cx="75" cy="60" r="50" stroke="gray" 
+            stroke-width="2"/>
+        </svg>
+        <svg>
+            <rect class="rec" width="100" height="50" />
+        </svg>
 
+  
+</div>
+<h2>Acknowledgements</h2> <!--needs to be centered-->
+<div>
+    <ul>
+        <li> <a href="https://www.w3.org/Style/Examples/007/center.en.html#:~:text=The%20most%20common%20and%20%28therefore%29%20easiest%20type%20of,text-align%3A%20center%20%7D%20H2%20%7B%20text-align%3A%20center%20%7D" target="_blank">Resource 1 </a></li>
+        <li> <a href = https://developer.mozilla.org/en-US/docs/Web/CSS/ID_selectors target="_blank">Resource 2</a></li>
+        <li> <a href="https://www.w3schools.com/html/html_links.asp" target="blank">Resource 3</a></li>
+        <li> <a href="https://data-flair.training/blogs/html-responsive-web-design/#:~:text=HTML%20Responsive%20Methods%201%201.%20Setting%20Viewport%20in,Text%20Size%20...%205%205.%20HTML%20Media%20Query" target="_blank">Resource 4</a></li>
+        <li> <a href="https://www.w3schools.com/howto/howto_css_image_responsive.asp#:~:text=How%20TO%20-%20Responsive%20Images%201%20Step%201%29,Try%20it%20Yourself%20%C2%BB%20...%203%20W3.CSS%20Tutorial" target="blank">Resource 5</a></li>
+        <li> <a href="https://www.geeksforgeeks.org/how-to-set-caption-for-an-image-using-html/" target="_blank">Resource 6</a></li>
+    </ul>
+</div>
 
 </body>
 
