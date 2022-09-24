@@ -37,14 +37,16 @@ table, th, td {
     display:flex;
     justify-content:center;
     align-items:center;
+    color: blueviolet;
 }
 .responsive {
     width: 100%;
     height: auto;
 }
-.figcaption {
+.graphic figcaption {
     justify-content: left;
 }
+
 .cir{
     fill: rgb(40, 133, 203);
 }
